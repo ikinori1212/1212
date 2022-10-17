@@ -1,2 +1,2 @@
 note
-Linux指令:l
+Linux指令:
