@@ -1,2 +1,1 @@
-note
-Linux指令:
+
