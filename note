@@ -108,3 +108,15 @@
 ###tar.gz
 *壓縮：tar -zcvf FileName.tar.gz DirName
 *解壓縮：tar -zxvf FileName.tar.gz
+##檔案搜尋
+###find
+*-size EX：找出**大於500M**的檔案→ -size +500M
+*-name EX：找出為**照片**的檔案→ -name "*.jpg"
+*-type EX：-type f→ 一般檔案;  -type d→ 一般目錄
+*-user EX：同時找**兩個擁有者**的檔案→-user user1 -o -user user2
+###which filename
+*-a：系統會顯示所有被找到的命令執行檔之完整路徑
+*-n<文件名長度>指定**文件名長度**，指定的長度必須大於或等於所有文件中**最長**的文件名
+*-p<文件名長度>與-n参數相同，但此處的<文件名長度>包括了**文件的路徑**
+*-w：指定輸出欄位的**寬度**
+*-V：顯示**版本訊息**
